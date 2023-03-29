@@ -13,7 +13,7 @@ size_t rcount;
 if (tree == NULL)
 return (0);
 
-lcount = binary_tree-size(tree->left);
+lcount = binary_tree_size(tree->left);
 lcount++;
 rcount = binary_tree_size(tree->right);
 rcount++;
